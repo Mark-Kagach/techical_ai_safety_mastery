@@ -1,9 +1,6 @@
-# Technical AI Safety Self-Education
+## The goal is to continuously improve my technical AI safety mastery.
 
-## The goal is to master technical AI safety sufficiently to conduct frontier research in a chosen niche.
-
-Between September and December 2025 this repo was about mastering AI/ML techniques to get hired as, broadly, junior ml engineer. From January 2026 I shifted my focus to becoming technical AI safety researcher.
-
+Between September and December 2025 this repo was about mastering AI/ML techniques to get hired as, broadly, junior ml engineer. From January 2026 I shifted my focus to technical AI safety.
 
 ## Solution
 The solution is **consistent [deliberate practice](https://www.amazon.com/gp/product/0544947223/)**. It is divided into [theoretical](https://github.com/Mark-Kagach/learning_ml/tree/24fe7c69d1fcb40b3a853f8659e0e7caa4388e28/Theoretical%20Practice) and [technical](https://github.com/Mark-Kagach/learning_ml/tree/24fe7c69d1fcb40b3a853f8659e0e7caa4388e28/Technical%20Practice) parts. This repository is a public practice camp where I log my training sessions. I publish this because, besides the value of signaling, I work better under public accountability. Below I describe my learning approach and some additional details. 
