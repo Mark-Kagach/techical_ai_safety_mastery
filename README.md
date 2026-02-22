@@ -1,4 +1,4 @@
-## The goal is to continuously improve my technical AI safety mastery.
+## Goal: Consistently and deliberately improve my technical AI safety craft.
 
 Between September and December 2025 this repo was about mastering AI/ML techniques to get hired as, broadly, junior ml engineer. From January 2026 I shifted my focus to technical AI safety.
 
