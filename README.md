@@ -17,3 +17,14 @@ Important mistake to watch out is taking in too much content without first integ
 I also try to heavily triage what I consider relevant theory and techniques to practice based on my goals. (For example, if you want to be an alignment researcher, unlikely you need to know cutting edge computer vision techniques.)
 
 Prior to September 2025 I've done just a few AI/ML projects: CS50ai, Andrew Ng's ML Specialialization, Paul Graham RAG connected to MCP.
+
+### Shortlist of Main (Notable) Projects:
+
+(Right now working on ARENA syllabus and implementing transformer architecture with chatbot.)
+
+1. [Won](https://github.com/EliasSchlie/quantifying-the-value-of-delayed-ovarian-aging) 2,500$ in AAAA Hackathon with Elias Schlie.
+2. Implemented RNN (GRU) architectures for character prediction, sentiment analysis, and neural machine translation (🚧).
+3. Went through most of Hands on ML with Pytorch chapters and exercises in depth (this was my main learning sources at the beginning).
+4. Went through most of AIMA chapters, studying heavily first few, and ML, DL ones.
+5. Read AI Safety Atlas and Introduction to AI Safety, Ethics, and Society.
+6. Completed bluedot AGI strategy and technical AI safety courses.
