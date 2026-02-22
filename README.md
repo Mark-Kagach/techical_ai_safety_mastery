@@ -18,7 +18,7 @@ I also try to heavily triage what I consider relevant theory and techniques to p
 
 Prior to September 2025 I've done just a few AI/ML projects: CS50ai, Andrew Ng's ML Specialialization, Paul Graham RAG connected to MCP.
 
-### Shortlist of Main (Notable) Projects:
+## Shortlist of Main (Notable) Projects:
 
 (Right now working on ARENA syllabus and implementing transformer architecture with chatbot.)
 
