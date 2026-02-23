@@ -23,8 +23,8 @@ Prior to September 2025 I've done just a few AI/ML projects: CS50ai, Andrew Ng's
 (Right now working on ARENA syllabus and implementing transformer architecture with chatbot.)
 
 1. [Won](https://github.com/EliasSchlie/quantifying-the-value-of-delayed-ovarian-aging) 2,500$ in AAAA Hackathon with Elias Schlie.
-2. Implemented RNN (GRU) architectures for character prediction, sentiment analysis, and neural machine translation (🚧).
+2. Implemented RNN (GRU) architectures for [character prediction](https://github.com/Mark-Kagach/techical_ai_safety_mastery/blob/main/Technical%20Practice/Practice%20Projects/Shakespeare%20Character%20RNN.ipynb), [sentiment analysis](https://github.com/Mark-Kagach/techical_ai_safety_mastery/blob/main/Technical%20Practice/Practice%20Projects/IMDb_Sentiment_Analysis_v2.ipynb), and neural machine translation.
 3. Went through most of Hands on ML with Pytorch chapters and exercises in depth (this was my main learning sources at the beginning).
 4. Went through most of AIMA chapters, studying heavily first few, and ML, DL ones.
-5. Read AI Safety Atlas and Introduction to AI Safety, Ethics, and Society.
-6. Completed bluedot [AGI strategy](https://bluedot.org/certification?id=recm25Phe649lGj3d), [technical AI safety](https://bluedot.org/certification?id=rec9giarFims9Plg1) and CS2881 courses
+5. Read [AI Safety Atlas](https://ai-safety-atlas.com) and [Introduction to AI Safety, Ethics, and Society](https://www.aisafetybook.com).
+6. Completed bluedot [AGI strategy](https://bluedot.org/certification?id=recm25Phe649lGj3d), [technical AI safety](https://bluedot.org/certification?id=rec9giarFims9Plg1) and Harvard's [CS2881](https://boazbk.github.io/mltheoryseminar/) courses
