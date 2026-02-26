@@ -1,0 +1,85 @@
+# Goal
+
+So the goal is to recap main things I've learned DL related. Maybe then go into computer science things.
+
+# Backprop Debrief
+1. 
+
+# Notes
+
+
+So let's start with ... let's start with RNNs and then go from there. So kind of the last two chapters, chapter 13 on RNN basics, and chapter 14 on training rnn's for nlp.
+
+So we have sequential data where ordering matters, if we use that in a fully connected feed forward NNs this data is lost, we just feed one training after another. Hence, we might benefit from a new architecture that might use the ordering of data as information in making predictions.
+
+Here RNNs come. Think same NN, but you also feed the output of the layer/neuron from the past training instance. All else works practically just like a normal NN. We also have weights for activations of the same layer for the past training instance, so we just as well do backprop on them. 
+One thing to understand how it works, is that in a deep layered RNN the neuron gets both the activation vector of its input layer, and the activation vector of its own layer for the past training instance.
+
+There are different types of RNNs:
+    - seq2seq -- time series prediction
+    - seq2vec -- sentiment analysis
+    - vec2seq -- image caption
+    - encoder-decoder: seq2vec-vec2seq, NMT
+
+depending on the type of RNN loss function would be a bit different, like in seq2vec we'll ignore all but last output (hidden state)
+
+There are some of the issues with RNNs, like gradient explosion, and (🟡 took a bit of time to recall) very short term memory!
+Think of gradient explosion. Basically if the activation output of one layer is slightly increased, then we keep on passing it through to future training instances, so it easily can balloon. What to do? Saturating activation functions like sigmoids, instead of non-saturating ones like ReLU. You also need good weight initialization, gradient clipping and right learning rate.
+
+Now think short-term memory. Basically we have info about the past training instance, so image NLP case, you read the sentence and by the time you get to its end you forgot how it started. This is because network has to pass start of sentence info all throughout several training instances iterations. This is hard! So for the things that matter, like NLP RNNs are practically unusable.
+
+To fix that we again can try a new architecture! An improvement on RNNs for fixing short term memory is LSTM and GRU. Basically the idea is that network can learn also what information to save for future recall, and then retrieve it when needed. 
+
+To explain that let's do LSTM. It stands for long short term memory, which pretty much explains the main idea. Instead of just passing by past training instance info, we also have long-term memory stream, where network learns what information to keep, and when to retrieve it. Instead of neurons we call them cells, and cells have gates, which help with deciding what info to keep and what to skip for long-term stream. I don't know more than that level of detail. So cells produce two streams of outputs, short-term memory h_t, and long-term memory c_t. which is again passed to all the neurons etc. So now we have 3 things that neurons get, info from their input layer, short-term info from their own layer activation from past training instance, and lastly long-term info (🟡 but from where that long-term memory comes from? i guess past training instance activations of the same layer.)
+
+Now that's LSTM and they're doing better for long-sequence processing than RNNs. We could simplify their architecture and get GRUs that have again one stream h_t that combines both short and long-term memory. That's kind of the main thing I want to know, I think that's the right level of abstraction.
+
+What else for RNN basics? In the book he does a few time series forecastings, that's uninteresting to me. Then he talks about problems like using saturating activation functions, gradient clipping, the right learning rate, and good weight initialization.
+
+I think that's mainly it. Let's go to RNN for NLP, check later if I missed something.
+
+---
+
+So, RNNs for NLP.
+
+First, NLP is usually long-sequence processing so we use LSTMs and GRU, and practically always GRU. Working with text means we need to do quite some preprocessing of it for NN to do useful things with it, giving its architecture and biases. 
+
+Also depends on the task we're doing with that text. Let's talk text generation, not sentiment analysis.
+
+(🟡 also didn't mention similar batch size with padding tokens, and how we trim them afterwards...)
+
+First we have our block of text, for NN to work with it and give us something out we need to break it down into __workable chunks__. There are different ways of doing it, one way is to use characters, this works for short-text, but harder for long-sequences. Ideally, we want to give network the biggest workable chunk of text, so it can do longer-sequence understanding and generation of text. For that we can use tokens, which are like popular subwords into which text can be broken. That's the right level of abstraction for nn to operate with text. So, let's talk how you choose the right tokens.
+
+There are several algorithms, usually you use pretrained, and even lowest layers of some other large language model (reusing things is a very common pattern in DL to save oneself time, don't reinvent bike from scratch). Those are: BPE, unigram, wordpiece.
+
+Say we use pretrained, or just trained on our own those tokens. What we have now is a dictionary with all those tokens and say their corresponding ids. 
+
+Network obviously needs numbers to work with, so we could use those ids. But nothing good would come out of that because network has very strong bias for close numbers meaning similar things. So instead of id's which is like 10k-50k numbers, we can represent them as dense vectors, i.e. embedding that has like 300 dimensions.
+
+So each token gets a vector, first randomly, and then adjacent to training model weights, we train those vectors to represent similar tokens close to each other. In fact by the end we can even do some math with words, like king-men+women=queen! (which is still crazy even though that's not my first time explaining it.)
+
+But why train it ourselves when we can just takes someones pretrained version! Say, also with their tokens, and their first few model layers which we first freeze not to damage them with super high gradients at the start of the training.
+
+And the tokens is like a dictionary with which network operates, so it outputs basically a classification of a huge, like 10k dictionary, so we train it with cross entropy.
+
+Cool, we have processed our text into smallest biggest workable chunks, i.e. tokens, instead of id's we represent them as vectors, we put them as dense representation, and train it so that similar vectors are closeby and we can do kind of math with language. We maybe also reused first layers of some other language model. Very good start! 
+
+What's next. Well, we nearly done with data step. Last thing we need is to ofc load the dataset, split it, convert data into the right structures, and split it into mini-batches, get x-y correctly. Now let's talk model part.
+
+We define it with a custom module, we define our forward method, probably reuse train and metrics function. In defining the model we say the layers and the final output layer. We then train the model. Evaluate it likely, and we can run inference. Text generation is slightly different steps here and there then sentiment analysis.
+
+But let's talk the big interesting deal that is encoder-decoder archcitectures for say NMT example.
+
+What's up with them. We have two models, encoder (seq2vec) and decoder (vec2seq). Say encoder encodes the meaning of english phrase, and then we give that to decoder that decodes phrase's meaning and translates into spanish. Encoder-decoder network architecture works better for NMT than fully connected feed forward networks. (Maybe because it is useful to explicitly split the task in two: encoding the meaning, decoding it in a new language.)
+
+I guess both can be just GRU layers, it is just that encoder needs to take in tokenized embeddings and output one vector, and decoder needs to take in the vector, and output sequence. 
+
+Let's go into more detail. How does it work?
+
+So quickly data processing for NMT, say we tokenize both languages (maybe with the same technique), we embed those tokens, we then prepare x-y pairs, put them in mini batches, split the dataset, and I guess we're ready to go.
+
+Encoder is a GRU architecture, it has both h_t stream which has both short and long term memory. We feed each cell its input layer activations, and activations of this layer but in the past training instance (h_t). 
+
+🟡 I'd like to repeat general GRU architecture.
+
+---
