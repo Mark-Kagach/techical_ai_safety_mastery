@@ -27,4 +27,4 @@ Prior to September 2025 I've done just a few AI/ML projects: CS50ai, Andrew Ng's
 3. Went through most of Hands on ML with Pytorch chapters and exercises in depth (this was my main learning sources at the beginning).
 4. Went through most of AIMA chapters, studying heavily first few, and ML, DL ones.
 5. Read [AI Safety Atlas](https://ai-safety-atlas.com) and [Introduction to AI Safety, Ethics, and Society](https://www.aisafetybook.com).
-6. Completed bluedot [AGI strategy](https://bluedot.org/certification?id=recm25Phe649lGj3d), [technical AI safety](https://bluedot.org/certification?id=rec9giarFims9Plg1) and Harvard's [CS2881](https://boazbk.github.io/mltheoryseminar/) courses.
+6. Completed bluedot [AGI strategy](https://bluedot.org/certification?id=recm25Phe649lGj3d), [technical AI safety course](https://bluedot.org/certification?id=rec9giarFims9Plg1), and [project](https://bluedot.org/courses/technical-ai-safety-project); and Harvard's [CS2881](https://boazbk.github.io/mltheoryseminar/) courses.
