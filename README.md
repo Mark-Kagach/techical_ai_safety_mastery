@@ -23,7 +23,7 @@ Prior to September 2025 I've done just a few AI/ML projects: CS50ai, Andrew Ng's
 (Right now working on ARENA syllabus and implementing transformer architecture with chatbot.)
 
 1. Went through most of [AIMA chapters](https://aima.cs.berkeley.edu), studying heavily first few, and ML, DL ones.
-2. Went through most of [Hands on ML with Pytorch](https://www.oreilly.com/library/view/hands-on-machine-learning/9798341607972/) chapters and exercises in depth (was my starting main learning source).
+2. Went through most of [Hands on ML with Pytorch](https://www.oreilly.com/library/view/hands-on-machine-learning/9798341607972/) chapters and exercises in depth (was my main starting learning source).
 3. [Won](https://github.com/EliasSchlie/quantifying-the-value-of-delayed-ovarian-aging) 2,500$ in AAAA Hackathon with Elias Schlie.
 4. Implemented RNN (GRU) architectures for [character prediction](https://github.com/Mark-Kagach/techical_ai_safety_mastery/blob/main/Technical%20Practice/Practice%20Projects/Shakespeare%20Character%20RNN.ipynb), [sentiment analysis](https://github.com/Mark-Kagach/techical_ai_safety_mastery/blob/main/Technical%20Practice/Practice%20Projects/IMDb_Sentiment_Analysis_v2.ipynb), and [neural machine translation](https://github.com/Mark-Kagach/techical_ai_safety_mastery/blob/main/Technical%20Practice/Practice%20Projects/Encoder_Decoder_RNN_for_English_to_Spanish_Translation.ipynb).
 5. Read [AI Safety Atlas](https://ai-safety-atlas.com) and [Introduction to AI Safety, Ethics, and Society](https://www.aisafetybook.com).
