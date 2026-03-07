@@ -1,4 +1,4 @@
-## Shortlist of Main (Notable) Projects:
+### Shortlist of Main (Notable) Projects:
 
 1. Implemented [transformer encoder-decoder for NMT](https://github.com/Mark-Kagach/techical_ai_safety_mastery/blob/main/Technical%20Practice/Practice%20Projects/transformer_nmt.py). Priorly, implemented RNN (GRU) architectures for [character prediction](https://github.com/Mark-Kagach/techical_ai_safety_mastery/blob/main/Technical%20Practice/Practice%20Projects/Shakespeare%20Character%20RNN.ipynb), [sentiment analysis](https://github.com/Mark-Kagach/techical_ai_safety_mastery/blob/main/Technical%20Practice/Practice%20Projects/IMDb_Sentiment_Analysis_v2.ipynb), and [neural machine translation](https://github.com/Mark-Kagach/techical_ai_safety_mastery/blob/main/Technical%20Practice/Practice%20Projects/Encoder_Decoder_RNN_for_English_to_Spanish_Translation.ipynb). 
 2. [Won](https://github.com/EliasSchlie/quantifying-the-value-of-delayed-ovarian-aging) 2,500$ in AAAA Hackathon with Elias Schlie.
@@ -9,7 +9,7 @@
 
 
 
-# Goal: Consistently and deliberately improve my technical AI safety craft.
+## Goal: Consistently and deliberately improve my technical AI safety craft.
 
 (Between September and December 2025 this repo was about mastering AI/ML techniques to get hired as, broadly, junior ml engineer. From January 2026 I shifted my focus to technical AI safety.)
 
