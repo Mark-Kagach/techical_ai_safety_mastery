@@ -1,3 +1,13 @@
+## Shortlist of Main (Notable) Projects:
+
+1. Went through most of [AIMA chapters](https://aima.cs.berkeley.edu), studying heavily first few, and ML, DL ones.
+2. Went through most of [Hands on ML with Pytorch](https://www.oreilly.com/library/view/hands-on-machine-learning/9798341607972/) chapters and exercises in depth (was my main starting learning source).
+3. [Won](https://github.com/EliasSchlie/quantifying-the-value-of-delayed-ovarian-aging) 2,500$ in AAAA Hackathon with Elias Schlie.
+4. Implemented RNN (GRU) architectures for [character prediction](https://github.com/Mark-Kagach/techical_ai_safety_mastery/blob/main/Technical%20Practice/Practice%20Projects/Shakespeare%20Character%20RNN.ipynb), [sentiment analysis](https://github.com/Mark-Kagach/techical_ai_safety_mastery/blob/main/Technical%20Practice/Practice%20Projects/IMDb_Sentiment_Analysis_v2.ipynb), and [neural machine translation](https://github.com/Mark-Kagach/techical_ai_safety_mastery/blob/main/Technical%20Practice/Practice%20Projects/Encoder_Decoder_RNN_for_English_to_Spanish_Translation.ipynb). Then implemented [transformer encoder-decoder for NMT](https://github.com/Mark-Kagach/techical_ai_safety_mastery/blob/main/Technical%20Practice/Practice%20Projects/transformer_nmt.py).
+5. Read [AI Safety Atlas](https://ai-safety-atlas.com) and [Introduction to AI Safety, Ethics, and Society](https://www.aisafetybook.com).
+6. Completed bluedot [AGI strategy](https://bluedot.org/certification?id=recm25Phe649lGj3d), [TAIS course](https://bluedot.org/certification?id=rec9giarFims9Plg1), and [TAIS project](https://bluedot.org/courses/technical-ai-safety-project); also Harvard's [CS2881](https://boazbk.github.io/mltheoryseminar/) course.
+8. For good examples of my theoretical practice see: [this scrappy explanation of transformer](https://github.com/Mark-Kagach/techical_ai_safety_mastery/blob/main/Theoretical%20Practice/March%202026/04.03.2026%20Integrating%20Practice%20DL%2C%20Transformer.md), ...
+
 ## Goal: Consistently and deliberately improve my technical AI safety craft.
 
 Between September and December 2025 this repo was about mastering AI/ML techniques to get hired as, broadly, junior ml engineer. From January 2026 I shifted my focus to technical AI safety.
@@ -17,15 +27,3 @@ Important mistake to watch out is taking in too much content without first integ
 I also try to heavily triage what I consider relevant theory and techniques to practice based on my goals. (For example, if you want to be an alignment researcher, unlikely you need to know cutting edge computer vision techniques.)
 
 Prior to September 2025 I've done just a few AI/ML projects: CS50ai, Andrew Ng's ML Specialialization, Paul Graham RAG connected to MCP.
-
-## Shortlist of Main (Notable) Projects:
-
-(Right now working on ARENA syllabus and implementing transformer architecture with chatbot.)
-
-1. Went through most of [AIMA chapters](https://aima.cs.berkeley.edu), studying heavily first few, and ML, DL ones.
-2. Went through most of [Hands on ML with Pytorch](https://www.oreilly.com/library/view/hands-on-machine-learning/9798341607972/) chapters and exercises in depth (was my main starting learning source).
-3. [Won](https://github.com/EliasSchlie/quantifying-the-value-of-delayed-ovarian-aging) 2,500$ in AAAA Hackathon with Elias Schlie.
-4. Implemented RNN (GRU) architectures for [character prediction](https://github.com/Mark-Kagach/techical_ai_safety_mastery/blob/main/Technical%20Practice/Practice%20Projects/Shakespeare%20Character%20RNN.ipynb), [sentiment analysis](https://github.com/Mark-Kagach/techical_ai_safety_mastery/blob/main/Technical%20Practice/Practice%20Projects/IMDb_Sentiment_Analysis_v2.ipynb), and [neural machine translation](https://github.com/Mark-Kagach/techical_ai_safety_mastery/blob/main/Technical%20Practice/Practice%20Projects/Encoder_Decoder_RNN_for_English_to_Spanish_Translation.ipynb). Then [transformer encoder-decoder for NMT](https://github.com/Mark-Kagach/techical_ai_safety_mastery/blob/main/Technical%20Practice/Practice%20Projects/transformer_nmt.py).
-5. Read [AI Safety Atlas](https://ai-safety-atlas.com) and [Introduction to AI Safety, Ethics, and Society](https://www.aisafetybook.com).
-6. Completed bluedot [AGI strategy](https://bluedot.org/certification?id=recm25Phe649lGj3d), [TAIS course](https://bluedot.org/certification?id=rec9giarFims9Plg1), and [TAIS project](https://bluedot.org/courses/technical-ai-safety-project); also Harvard's [CS2881](https://boazbk.github.io/mltheoryseminar/) course.
-8. For good examples of my theoretical practice see: [this scrappy explanation of transformer](https://github.com/Mark-Kagach/techical_ai_safety_mastery/blob/main/Theoretical%20Practice/March%202026/04.03.2026%20Integrating%20Practice%20DL%2C%20Transformer.md), ...
