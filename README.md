@@ -7,6 +7,8 @@
 5. Went through most of [Hands on ML with Pytorch](https://www.oreilly.com/library/view/hands-on-machine-learning/9798341607972/) chapters and exercises in depth (was my main starting learning source).
 9. For good examples of my theoretical practice see: [this scrappy explanation of transformer](https://github.com/Mark-Kagach/techical_ai_safety_mastery/blob/main/Theoretical%20Practice/March%202026/04.03.2026%20Integrating%20Practice%20DL%2C%20Transformer.md); this [not-so scrappy explanation](https://github.com/Mark-Kagach/techical_ai_safety_mastery/blob/main/Theoretical%20Practice/January%202026/12.01.2026%20ML%20Feynman%20Practice.md) of AI, computers, and explicit-implicit coding; or [this explanation](https://github.com/Mark-Kagach/techical_ai_safety_mastery/blob/main/Theoretical%20Practice/January%202026/20.01.2026%20Final%20Integration%20Practice%20of%20Supervised%20and%20Unsupervised%20Learning.md) of all main parts of ML.
 
+
+
 # Goal: Consistently and deliberately improve my technical AI safety craft.
 
 (Between September and December 2025 this repo was about mastering AI/ML techniques to get hired as, broadly, junior ml engineer. From January 2026 I shifted my focus to technical AI safety.)
