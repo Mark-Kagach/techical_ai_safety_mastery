@@ -1,4 +1,4 @@
-### Highlights:
+## Highlights:
 
 1. Completed [ML4Good](https://ml4good.org) and [AFFINE Seminar](https://www.lesswrong.com/posts/H7MZuo9gXcE7beF9r/superintelligence-alignment-seminar-1-month-focused) (WIP!*).
 2. Implemented [transformer encoder-decoder for NMT](https://github.com/Mark-Kagach/techical_ai_safety_mastery/blob/main/Technical%20Practice/Practice%20Projects/transformer_nmt.py). Prior, implemented RNN (GRU) architectures for [character prediction](https://github.com/Mark-Kagach/techical_ai_safety_mastery/blob/main/Technical%20Practice/Practice%20Projects/Shakespeare%20Character%20RNN.ipynb), [sentiment analysis](https://github.com/Mark-Kagach/techical_ai_safety_mastery/blob/main/Technical%20Practice/Practice%20Projects/IMDb_Sentiment_Analysis_v2.ipynb), and [neural machine translation](https://github.com/Mark-Kagach/techical_ai_safety_mastery/blob/main/Technical%20Practice/Practice%20Projects/Encoder_Decoder_RNN_for_English_to_Spanish_Translation.ipynb). 
